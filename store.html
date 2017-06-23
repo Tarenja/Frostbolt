@@ -5,80 +5,154 @@
 	<title>Frostbolt Store</title>
 </head>
 <body>
-	<div id="nav">
-		<nav>
-			<img class="logo" src=""/>
+	<nav>
+		<a href="index.html"><img class="logo" src="images/FrostboltStudios_logo_white.svg"/></a>
+		<ul>
+			<li> <a href="about.html">ABOUT</a></li>
+			<li> <a href="#">NEWS</a></li>
+			<li> <a href="#">GAMES</a></li>
+			<li id="storeButton"><a href="store.html">STORE</a></li>
+		</ul>
+	</nav>
+
+	<div id="storecontainer"> 
+		<div id="top"> 
+			<div id="frostboltstore">
+			<p>FROSTBOLT STORE</p>
+			</div>
+
+			<div id=searchbar> 
+   				<div class="search">
+      				<input type="text" class="searchTerm" placeholder="Search games">
+      				<button type="submit" class="searchButton"> <img src="images/icons/search.png" />
+     				</button>
+   				</div>
+			</div>
+		</div>
+
+		<div id="allthegames"> 
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/wildwastelandwanderer.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">WILD WASTELAND WANDERER</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$50,-</p>
+					<div class="buynow"><a href="#">BUY</a></div>
+				</div>
+			</div>
+
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/lyriummadness.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">LYRIUM MADNESS</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$50,-</p>
+				</div>
+			</div>
+
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/magicvikings.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">MAGIC VIKINGS</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$30,-</p>
+				</div>
+			</div>
+
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/gentlemanbastard.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">GENTLEMAN BASTARD</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$30,-</p>
+				</div>
+			</div>
+
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/manvsuniverse.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">MAN VS UNIVERSE</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$40,-</p>
+				</div>
+			</div>
+
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/lyriummadnessherebedragons.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">LYRIUM MADNESS: HERE BE DRAGONS</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$50,-</p>
+				</div>
+			</div>	
+
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/wildwastelandranger.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">WILD WASTELAND RANGERS</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$50,-</p>
+				</div>
+			</div>	
+
+			<div class="gameBlock">
+				<img class="boxart" src="images/store/magicvikingsgirledition.png"/>
+				<div class="gameinfo">
+					<p class="gametitle">MAGIC VIKINGS: GIRL EDITION</p>
+					<p class="genre">Game genre description</p>
+					<p class="price">$30,-</p>
+				</div>
+			</div>					
+		</div>
+	</div>
+
+	<div id="footer">
+		<ul id="explore">
+			<li class="listHead">EXPLORE</li> <br/>
+			<li>Home</li>
+			<li>Games</li>
+			<li>Mods</li> 
+			<li>News</li> 
+			<li>Original Store</li> 
+			<li>Merchandise</li> 
+			<li>Get Updates</li> 
+		</ul>
+
+		<ul id="legal">
+			<li class="listHead">LEGAL</li> <br/>
+			<li>Terms of Service</li>
+			<li>Privacy Policy</li>
+			<li>Legal Information</li>
+			<li>Code of Conduct</li>
+			<li>Contact</li>
+			<li>Corporate</li>
+		</ul>
+
+		<div id="contact">
 			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Careers</li>
-				<li>Studios</li>
-				<li>Store</li>
+				<li class="listHead">CONTACT</li> <br/>
+				<li>Frostbolt Studios</li> 
+				<li>3049 Danforth Avenue</li> 
+				<li>Toronto ON M4K 1A6</li> 
 			</ul>
-		</nav>
+
+			<div id="socialBanner">
+				<ul>
+                    <p>FOLLOW US ON:</p>
+                    <li><img src="images/frontpagepics/facebook.png"/></li>  
+                    <li><img src="images/frontpagepics/twitter.png"/></li>
+                    <li><img src="images/frontpagepics/instagram.png"/></li>
+                    <li><img src="images/frontpagepics/youtube.png"/></li>
+                </ul>
+            </div>
+
+	        <div id="google">
+	            <img src="images/GoogleMaps.png"/>
+	        </div>
+		</div>
 	</div>
 
-	<div id="sideBanner">
-		<p>Placeholder for banner along the side contaning the filters and categories for the games</p>		
-	</div>
-
-	<div class="gameBlock">
-		<img class="boxart" src=""/>
-		<p>Game Title</p>
-		<p>Game genre description</p>
-		<p>Price, aligned to the right</p>
-	</div>
-
-	<div class="gameBlock">
-		<img class="boxart" src=""/>
-		<p>Game Title</p>
-		<p>Game genre description</p>
-		<p>Price, aligned to the right</p>
-	</div>
-
-	<div class="gameBlock">
-		<img class="boxart" src=""/>
-		<p>Game Title</p>
-		<p>Game genre description</p>
-		<p>Price, aligned to the right</p>
-	</div>
-
-	<div class="gameBlock">
-		<img class="boxart" src=""/>
-		<p>Game Title</p>
-		<p>Game genre description</p>
-		<p>Price, aligned to the right</p>
-	</div>
-
-	<div class="gameBlock">
-		<img class="boxart" src=""/>
-		<p>Game Title</p>
-		<p>Game genre description</p>
-		<p>Price, aligned to the right</p>
-	</div>
-
-	<div class="gameBlock">
-		<img class="boxart" src=""/>
-		<p>Game Title</p>
-		<p>Game genre description</p>
-		<p>Price, aligned to the right</p>
-	</div>					
-
-	<div id="contact">
-		<p>
-			Contact Us <br/>
-			Phone: +1 555-5555 <br/>
-			Email: info@frostbolt.com <br/>
-			For press enquiries: press@frostbolt.com <br/>
-		</p>
-
-		<p>
-			Address: <br/>
-			Frostbolt Studios Inc.<br/>
-			1234 Randomstreet<br/>
-			City, State, Zip<br/>
-		</p>
-	</div>	
+	<p id="rights">All rights reserved© 2017</p>
 
 </body>
 </html>

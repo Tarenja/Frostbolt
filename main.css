@@ -1,3 +1,11 @@
+/*
+Colors:
+
+Lightblue: rgb(58,254,251)
+Darkgreenblue: rgb(10,66,73)
+Brokenwhite:
+*/
+
 body {
 	background-color: black;
 	color: white;
@@ -5,6 +13,7 @@ body {
 	padding-top: 80px;
 }
 
+/*---------------------navbar---------------------*/
 nav {
 	display: inline-block;
 	height: 100px;
@@ -15,7 +24,7 @@ nav {
 	background-color: black;
 }
 
- nav ul {
+nav ul {
 	display: block;
 	float: right;
 	padding-right: 20px;
@@ -43,6 +52,7 @@ nav li a {
 	height: 52px;
 }
 
+/*---------------------homepage---------------------*/
 #container {	
 	clear: right;
 }
@@ -95,80 +105,225 @@ nav li a {
 }
 
 #gamesSection p{
-	font-size: 35pt;
-	padding-left: 50px;
-	height: 100px;
+    font-size: 35pt;
+    padding-left: 50px;
 }
+
+@media (min-width: 900px) {
+  #game-section-1, #game-section-2, #gamesSection img {
+    display: inline;
+  }
 
 #gamesSection img {
-	padding: 40px;
+    padding: 40px;
+    margin: 0 auto;
 }
 
-
 #game-section-1{
-	width: 45%;
-	display: inline-block;
-	float: left;
-	margin-left: 200px;
-	margin-right: -150px;
-	margin-top: -100px;
+    width: 45%;
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
 }
 
 #game-section-2{
-	width: 45%;
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/*---------------------store---------------------*/
+#storecontainer {
+	margin: 0 auto;
+}
+
+#top {
+	width: 100%;
+	display: inline;
+	padding: 0px 0px 0px 25px;
+}
+
+#allthegames {
+	text-align: center;
+}
+
+#frostboltstore {
+	color: rgb(58,254,251);
+	font-size: 30pt;
 	display: inline-block;
 }
 
-#footer {
+#searchbar {
+	float: right;
+}
+
+.search {
+	width: 300px;
+	position: relative;
+	z-index: -1;
+}
+
+.searchTerm {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid rgb(58,254,251);
+	border-right-style: none;
+	border-top-style: none;
+	border-left-style: none;
+	padding: 5px;
+	height: 20px;
+	outline: none;
+	color: rgb(10,66,73);
+	font-family: 'Iceland', cursive;
+	font-size: 20px;
+	background-color: rgba(58,254,251,0);
+}
+
+.searchTerm:focus{
+	color: rgb(58,254,251);
+}
+
+.searchButton {
+	position: absolute;  
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: rgb(58,254,251);
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	border-style: none;
+	margin-left: 5px;
+}
+
+.searchButton img {
+	height: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+/*.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+.gameBlock {
+	display: inline-block;
+	width: 257px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.boxart {
+	height: 300px;
+}
+
+.gameinfo {
 	background-color: rgb(10,66,73);
-	padding-bottom: 20px;
-}
+	height: 200px;
+}	
 
-#footer ul {
-	display: inline-block;
-	list-style: none;
-}
-
-.listHead {
+.gametitle {
 	font-size: 20pt;
 }
 
+.genre{
+	font-size: 10pt;
+	color: rgb(58,254,251);
+}
+
+.price {
+	font-size: 25pt;
+	display: inline-block;
+}
+
+.buynow {
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	height: 40px;
+	width: 75px;
+	display: inline-block;
+	float: right;
+	color: black;
+}
+
+.buynow a {
+	text-decoration: none;
+	color: black;
+}
+
+/*---------------------footer---------------------*/
+#footer {
+    background-color: rgb(10,66,73);
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.listHead {
+    font-size: 20pt;
+}
+
 #footer li {
-	font-size: 15pt;
+    font-size: 15pt;
 }
 
 #legal {
-	border-left: 1px solid rgb(58,255,255);
+    border-left: 1px solid rgb(58,240,240);
 }
 
 #contact {
-	display: inline-block;
-	border-left: 1px solid rgb(58,255,255);
-	margin-top: 10px;
+    display: inline-block;
+    border-left: 1px solid rgb(58,240,240);
+    margin-top: 10px;
 }
 
 #contact ul {
-	display: block;	
+    display: block;    
 }
 
 #socialBanner li {
-	display: inline;
+    display: inline;
 }
 
 #socialBanner ul {
-	display: block;	
+    display: inline-block;    
 }
 
 #socialBanner {
-	display: inline-block;
-	font-size: 15pt;
+    display: inline-block;
+    font-size: 15pt;
 }
 
 #socialBanner li a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 } 
 
+#explore {
+    width: 20%;
+    float: left;
+    line-height: 25px;
+}
+
+#legal {
+    width: 20%;
+    float: left;
+    line-height: 25px;
+}
+
+#google {
+    display: inline-block;
+    padding-left: 200px;
+}
+
+
 #rights {
-	font-size: 15pt;
+    font-size: 15pt;
 }
