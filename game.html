@@ -2,35 +2,65 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>Game Title</title>
+	<link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
+	<title>Frostbolt Studios Homepage</title>
 </head>
 <body>
+<div id="container">
 	<div id="nav">
 		<nav>
+			<a href="index.html"><img class="logo" src="images/FrostboltStudios_logo_white.svg"/></a>
 			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Careers</li>
-				<li>Studios</li>
-				<li>Store</li>
+				<li> <a href="about.html">ABOUT</a></li>
+				<li> <a href="#">NEWS</a></li>
+				<li> <a href="#">GAMES</a></li>
+				<li id="storeButton"><a href="store.html">STORE</a></li>
 			</ul>
 		</nav>
 	</div>
 
 	<div id="gameBanner">
-		<img src=""> <!-- this will be the box art for the game -->
+		<p id="gameSlogan">WILD WASTELAND WANDERER</p>
+		<p id="buyNow"> <a href="store.html">BUY NOW</a></p>
+	</div>
+
+	<div id=gameQuote>
+		<p>
+			"Another Settlement Needs Your Help"<br/>
+			- Preston Garvey
+		</p>
 	</div>
 
 	<div id="trailer">
-		<!--  here will be an embedded game trailer -->
+		<p class="sectionHeader">TRAILER</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/GE2BkLqMef4" frameborder="0" allowfullscreen></iframe>
 	</div>
 
 	<div id="aboutGame">
-		<!-- here will be the promo text and detailed description of the game, without spoilers -->
+	<p class="sectionHeader">SYNOPSIS</p>
+		<div id="synopsis">
+				<p>The player is the Sole Survivor of Vault 111, who emerges 210 years to the day and time after the Great War. Prior to this, there is a brief period of gameplay during the pre-War era showing the player living with their spouse and child.
+				</p>
+				<p>
+				The gameplay has the ability to switch from first to third-person view. Additional features include a split-piece armor system (reminiscent of the armor system in Magic Warriors III: Magic Wind), base-building, a dynamic dialogue system, an in-depth crafting system that makes use of every lootable object in the game as a source of raw material and more. Enemies such as mole rats, mirelurks, raiders, super mutants, deathclaws, and ghouls return to the series.
+				</p>
+				<p>
+				The player character, the Sole Survivor, accesses the in-game menus through a Pip-Boy to manage statistics, maps, data, and items. Players can also find game cartridges with retro themed mini-games which can be played on the Pip-Boy. Another returning gameplay feature is the Vault-Tec Assisted Targeting System (V.A.T.S.), which can play a critical part in combat. While using V.A.T.S, real-time combat is slowed down, and action is played out from varying camera angles in a computer graphics version of "bullet time."
+				</p>
+			</div>
+		<div id=gamePic>
+			<img src="images/gamepagepics/pipboy.png">
+		</div>
+
 	</div>
 
 	<div id="screenshots">
-		<!-- here will be a series of clickable screenshots that enlarge when you click on them or open in a new tab -->
+		<p class="sectionHeader">SCREENSHOTS</p>
+		<p id="left"><</p>
+		<img id="screenshot" src="images/gamepagepics/screenshot.png">
+		<p id="right">></p>
+		<div></div>
+		<img id="dots" src="images/gamepagepics/dots.png">
 	</div>
 
 		<div id="footer">

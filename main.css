@@ -69,7 +69,7 @@ nav li a {
 	background-image: url("images/SliderImage.png");
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 1000px;
+    height: 800px;
     width: 100%;
     margin: 0;
     background-position: center;
@@ -153,6 +153,101 @@ nav li a {
 
 #see a {
 	text-decoration: none;
+}
+
+/*everything below here belongs to the game page*/
+
+#gameBanner {
+	background-image: url("images/gamepagepics/headerimage.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+}
+
+#gameSlogan {
+	font-size: 70pt;
+	padding-top: 300px;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+#buyNow {
+	display: inline;
+	font-size: 20pt;
+	margin-left: 300px;
+	margin-top: -100px;
+	padding: 10px;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	width: 100px;
+}
+
+#buyNow:hover {
+	background-color: rgb(10,66,73);
+}
+
+#buyNow a {
+	text-decoration: none;
+	color: black;
+}
+
+#trailer {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(10,66,73);
+	padding-bottom: 50px;
+
+}
+
+#aboutGame {
+	font-size: 15pt;
+	border-bottom: 1px solid white;
+	width: 90%;
+	margin-left: 100px;
+}
+
+.sectionHeader {
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#gameQuote {
+	text-align: center;
+	width: 100%;
+	font-size: 35pt;
+}
+
+#synopsis {
+	width: 60%;
+	display: inline-block;
+	float: left;
+	margin-left: 100px;
+}
+
+#gamePic {
+	width: 30%;
+	display: inline-block;
+	margin: 30px;
+}
+
+#screenshots {
+	text-align: center;
+}
+
+#left, #right {
+	display: inline;
+	font-size: 50pt;
+}
+
+#dots {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 /*Everything below here belongs in the footer*/
