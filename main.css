@@ -1,0 +1,174 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Iceland', cursive;
+	padding-top: 80px;
+}
+
+nav {
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+}
+
+ nav ul {
+	display: block;
+	float: right;
+	padding-right: 20px;
+	margin-top: 35px;
+	margin-right: 30px;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	font-size: 20pt;
+	margin: 10px;
+	padding: 10px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+	
+} 
+
+.logo {
+	padding-left: 25px;
+	padding-top: 25px;
+	height: 52px;
+}
+
+#container {	
+	clear: right;
+}
+
+#storeButton{
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+}
+
+#storeButton a{
+	color: black;
+}
+
+#splashBanner {
+	background-image: url("images/SliderImage.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    margin-top: -100px;
+}
+
+#gameTitle {
+	font-size: 80pt;
+	padding-top: 600px;
+	padding-left: 100px;
+}
+#outNow {
+	font-size: 20pt;
+	margin-left: 110px;
+	margin-top: -100px;
+	padding: 10px;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	width: 100px;
+}
+#outNow a {
+	text-decoration: none;
+}
+
+#Dishonored{
+	display: block;
+}
+#DragonAge{
+	display: block;
+}
+
+#gamesSection p{
+	font-size: 35pt;
+	padding-left: 50px;
+	height: 100px;
+}
+
+#gamesSection img {
+	padding: 40px;
+}
+
+
+#game-section-1{
+	width: 45%;
+	display: inline-block;
+	float: left;
+	margin-left: 200px;
+	margin-right: -150px;
+	margin-top: -100px;
+}
+
+#game-section-2{
+	width: 45%;
+	display: inline-block;
+}
+
+#footer {
+	background-color: rgb(10,66,73);
+	padding-bottom: 20px;
+}
+
+#footer ul {
+	display: inline-block;
+	list-style: none;
+}
+
+.listHead {
+	font-size: 20pt;
+}
+
+#footer li {
+	font-size: 15pt;
+}
+
+#legal {
+	border-left: 1px solid rgb(58,255,255);
+}
+
+#contact {
+	display: inline-block;
+	border-left: 1px solid rgb(58,255,255);
+	margin-top: 10px;
+}
+
+#contact ul {
+	display: block;	
+}
+
+#socialBanner li {
+	display: inline;
+}
+
+#socialBanner ul {
+	display: block;	
+}
+
+#socialBanner {
+	display: inline-block;
+	font-size: 15pt;
+}
+
+#socialBanner li a {
+	text-decoration: none;
+	color: white;
+} 
+
+#rights {
+	font-size: 15pt;
+}
