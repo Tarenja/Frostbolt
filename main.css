@@ -109,10 +109,10 @@ nav li a {
     padding-left: 50px;
 }
 
-@media (min-width: 900px) {
+/*@media (min-width: 900px) {
   #game-section-1, #game-section-2, #gamesSection img {
     display: inline;
-  }
+  }*/
 
 #gamesSection img {
     padding: 40px;
@@ -143,8 +143,13 @@ nav li a {
 	padding: 0px 0px 0px 25px;
 }
 
-#allthegames {
-	text-align: center;
+#line {
+	height: 20px;
+	width: 100%;
+	background-color: white;
+	float: left;
+	clear: both;
+	margin-left: -7px;
 }
 
 #frostboltstore {
@@ -154,7 +159,8 @@ nav li a {
 }
 
 #searchbar {
-	float: right;
+	display: inline-block;
+	padding-left: 500px;
 }
 
 .search {
@@ -200,20 +206,29 @@ nav li a {
 	height: 20px;
 }
 
-/*Resize the wrap to see the search bar change!*/
-/*.wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}*/
+/*///////*/
+
+#allthegames {
+	text-align: center;
+	background-color: black;
+}
+
+#row1 {
+	margin: 0 auto;
+	clear: both;
+}
+
+#row2 {
+	margin: 0 auto;
+	clear: both;
+}
 
 .gameBlock {
 	display: inline-block;
 	width: 257px;
-	margin: 0 auto;
-	padding: 5px;
+	float: left;
+	padding: 20px; 
+	text-align: left;
 }
 
 .boxart {
@@ -222,36 +237,52 @@ nav li a {
 
 .gameinfo {
 	background-color: rgb(10,66,73);
-	height: 200px;
+	padding: 4px 4px 20px 4px;
+	margin-top: -4px;
 }	
 
 .gametitle {
 	font-size: 20pt;
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
 }
 
 .genre{
 	font-size: 10pt;
 	color: rgb(58,254,251);
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+.bottominfo {
 }
 
 .price {
 	font-size: 25pt;
-	display: inline-block;
+	display: inline;
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
 }
 
 .buynow {
 	background-color: rgb(58,254,251);
 	border-radius: 5px;
-	height: 40px;
-	width: 75px;
 	display: inline-block;
 	float: right;
 	color: black;
-}
-
-.buynow a {
+	padding: 10px 20px 10px 20px;	
 	text-decoration: none;
-	color: black;
+	font-size: 15pt;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
 }
 
 /*---------------------footer---------------------*/
@@ -259,6 +290,7 @@ nav li a {
     background-color: rgb(10,66,73);
     padding-bottom: 20px;
     width: 100%;
+    clear: both;
 }
 
 #footer ul {
