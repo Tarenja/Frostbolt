@@ -22,6 +22,7 @@ nav {
 	top: 0;
 	left: 0;
 	background-color: black;
+	z-index: 1;
 }
 
 nav ul {
@@ -233,6 +234,11 @@ nav li a {
 
 .boxart {
 	height: 300px;
+	opacity: 0.5;
+}
+
+.boxart:hover {
+	opacity: 1;
 }
 
 .gameinfo {
@@ -283,6 +289,103 @@ nav li a {
     -webkit-margin-after: 10px;
     -webkit-margin-start: 10px;
     -webkit-margin-end: 10px;
+}
+
+.buynow:hover {
+	background-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	float: right;
+	color: rgb(58,254,251);
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+/*---------------------about---------------------*/
+#header {
+	margin: -7px;
+}
+
+#header img {
+	width: 100%;
+}
+
+#top{
+	text-align: center;
+}
+
+#logo img {
+	height: 100px;
+	margin: 20px;
+}
+
+#tekst {
+	font-size: 17pt;
+	width: 900px;
+	margin: 0 auto;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+#vision {
+	font-size: 22pt;
+	background-color: rgb(10,66,73);
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+#ourteam {
+	width: 900px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+#ourteam span {
+	font-size: 20pt;
+}
+
+.centered {
+	text-align: center;
+}
+
+#CEO {
+	height: 200px;
+}
+
+#CEO img {
+	float: right;
+}
+
+#artdirector {
+	height: 200px;
+	display: inline-block;
+}
+
+#artdirector img {
+	float: left;
+	display: inline-block;
+}
+
+.functie {
+	color: rgb(58,254,251);
+	padding: 0;
+	display: inline-block;
+	clear: both;
+}
+
+.quote {
+	text-align: justify;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+#careers {
+	height: 300px;
 }
 
 /*---------------------footer---------------------*/
