@@ -1,3 +1,10 @@
+/*
+Colors:
+
+Lightblue: rgb(58,254,251)
+Darkgreenblue: rgb(10,66,73)
+*/
+
 body {
 	background-color: black;
 	color: white;
@@ -5,7 +12,9 @@ body {
 	padding-top: 80px;
 }
 
-/*everything below here belongs to the header*/
+
+/*---------------------navbar---------------------*/
+
 
 nav {
 	display: inline-block;
@@ -15,9 +24,10 @@ nav {
 	top: 0;
 	left: 0;
 	background-color: black;
+	z-index: 1;
 }
 
- nav ul {
+nav ul {
 	display: block;
 	float: right;
 	padding-right: 20px;
@@ -45,6 +55,7 @@ nav li a {
 	height: 52px;
 }
 
+/*---------------------homepage---------------------*/
 #container {	
 	clear: right;
 }
@@ -106,6 +117,8 @@ nav li a {
 #gamesSection img {
 	margin-top: 50px;
 	transition: width 1s ease;
+	padding: 40px;
+    margin: 0 auto;
 }
 
 #gamesSection img:hover {
@@ -117,8 +130,135 @@ nav li a {
 }
 
 #gamesSection p{
-	font-size: 45pt;
-	margin-left: 100px;
+    font-size: 35pt;
+    padding-left: 50px;
+}
+
+#game-section-1{
+    width: 45%;
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+}
+
+#game-section-2{
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/*---------------------store---------------------*/
+#storecontainer {
+	margin: 0 auto;
+}
+
+#top {
+	width: 100%;
+	display: inline;
+	padding: 0px 0px 0px 25px;
+}
+
+#line {
+	height: 20px;
+	width: 100%;
+	background-color: white;
+	float: left;
+	clear: both;
+	margin-left: -7px;
+}
+
+#frostboltstore {
+	color: rgb(58,254,251);
+	font-size: 30pt;
+	display: inline-block;
+}
+
+#searchbar {
+	display: inline-block;
+	padding-left: 500px;
+}
+
+.search {
+	width: 300px;
+	position: relative;
+	z-index: -1;
+}
+
+.searchTerm {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid rgb(58,254,251);
+	border-right-style: none;
+	border-top-style: none;
+	border-left-style: none;
+	padding: 5px;
+	height: 20px;
+	outline: none;
+	color: rgb(10,66,73);
+	font-family: 'Iceland', cursive;
+	font-size: 20px;
+	background-color: rgba(58,254,251,0);
+}
+
+.searchTerm:focus{
+	color: rgb(58,254,251);
+}
+
+.searchButton {
+	position: absolute;  
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: rgb(58,254,251);
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	border-style: none;
+	margin-left: 5px;
+}
+
+.searchButton img {
+	height: 20px;
+}
+
+/*///////*/
+
+#allthegames {
+	text-align: center;
+	background-color: black;
+}
+
+#row1 {
+	margin: 0 auto;
+	clear: both;
+}
+
+#row2 {
+	margin: 0 auto;
+	clear: both;
+}
+
+.gameBlock {
+	display: inline-block;
+	width: 257px;
+	float: left;
+	padding: 20px; 
+	text-align: left;
+}
+
+.boxart {
+	height: 300px;
+	opacity: 0.5;
+}
+
+.boxart:hover {
+	opacity: 1;
+}
+
+.gameinfo {
+	background-color: rgb(10,66,73);
+	padding: 4px 4px 20px 4px;
+	margin-top: -4px;
 }
 
 #gamesSection {
@@ -257,26 +397,226 @@ nav li a {
 
 /*Everything below here belongs in the footer*/
 
-#footer {
-	background-color: rgb(10,66,73);
-	padding-bottom: 20px;
+
+
+.gametitle {
+	font-size: 20pt;
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+.genre{
+	font-size: 10pt;
+	color: rgb(58,254,251);
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+
+.price {
+	font-size: 25pt;
+	display: inline;
+	-webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+.buynow {
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	display: inline-block;
+	float: right;
+	color: black;
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+
+.buynow:hover {
+	background-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	float: right;
+	color: rgb(58,254,251);
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+}
+/*---------------------about---------------------*/
+#header {
+	margin: -7px;
+}
+
+#header img {
 	width: 100%;
 }
 
-#footer ul {
-	display: inline-block;
-	list-style: none;
+#top{
+	text-align: center;
 }
 
-.listHead {
+#logo img {
+	height: 100px;
+	margin: 20px;
+}
+
+#tekst {
+	font-size: 17pt;
+	width: 900px;
+	margin: 0 auto;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+#vision {
+	font-size: 22pt;
+	background-color: rgb(10,66,73);
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+#ourteam {
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+#ourteam span {
 	font-size: 20pt;
 }
 
-#footer li {
+.centered {
+	text-align: center;
+}
+
+#CEO {
+	height: 150px;
+	margin: 50px 0px 0px 60px;
+}
+
+#CEO img {
+	float: left;
+}
+
+#artdirector {
+	height: 150px;
+	margin: 50px 0px 0px 60px;
+}
+
+#artdirector img {
+	float: left;
+}
+
+.functie {
+	color: rgb(58,254,251);
+	display: inline-block;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	font-size: 22px;
+	-webkit-margin-before: 25px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.quote {
+	text-align: justify;
+	display: inline-block;
+	float: left;
+	width: 70%;
+	padding-left: 25px;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#line2 {
+	height: 3px;
+	background-color: white;
+	width: 1100px;
+	margin: auto;
+	
+}
+
+#careers {
+	height: 300px;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#careers span {
+	color: rgb(58,254,251);
+}
+
+.seealljobs {
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	display: inline-block;
+	color: black;
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	margin-top: 50px;
+}
+
+.seealljobs:hover {
+	background-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	color: rgb(58,254,251);
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
 	font-size: 15pt;
 }
 
+/*---------------------footer---------------------*/
+
+#footer {
+	background-color: rgb(10,66,73);
+	padding: 4px 4px 20px 4px;
+	margin-top: -4px;
+    padding-bottom: 20px;
+    width: 100%;
+    clear: both;
+}	
+
+#footer ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.listHead {
+    font-size: 20pt;
+}
+
+#footer li {
+    font-size: 15pt;
+}
+
 #legal {
+    border-left: 1px solid rgb(58,240,240);
+}
+
+#contact {
+    display: inline-block;
+    border-left: 1px solid rgb(58,240,240);
+    margin-top: 10px;
 	border-left: 1px solid rgb(58,240,240);
 }
 
@@ -287,47 +627,48 @@ nav li a {
 }
 
 #contact ul {
-	display: block;	
+    display: block;    
 }
 
 #socialBanner li {
-	display: inline;
+    display: inline;
 }
 
 #socialBanner ul {
+    display: inline-block;    
 	display: inline-block;	
 }
 
 #socialBanner {
-	display: inline-block;
-	font-size: 15pt;
+    display: inline-block;
+    font-size: 15pt;
 }
 
 #socialBanner li a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 } 
 
 #explore {
-	width: 20%;
-	float: left;
-	line-height: 25px;
+    width: 20%;
+    float: left;
+    line-height: 25px;
 }
 
 #legal {
-	width: 20%;
-	float: left;
-	line-height: 25px;
+    width: 20%;
+    float: left;
+    line-height: 25px;
 }
 
 #google {
-	display: inline-block;
-	padding-left: 200px;
+    display: inline-block;
+    padding-left: 200px;
+	width: 20%;
+	line-height: 25px;
 }
 
 
 #rights {
-	font-size: 15pt;
+    font-size: 15pt;
 }
-
-
