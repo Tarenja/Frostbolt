@@ -93,6 +93,12 @@ nav li a {
 }
 #outNow a {
 	text-decoration: none;
+	color: black;
+}
+
+#outNow:hover {
+	background-color: rgb(10,66,73);
+	color: black;
 }
 
 /*everything below here belongs to the game images section on the homepage*/
@@ -121,14 +127,13 @@ nav li a {
 
 #gamesSection div {
 	display: inline;
-}
+} 
 
 #gamesSection ul {
 	display: inline-block;
 	width: 30%;
 	padding-bottom: 10px;
 	transition: background-color 0.5s ease;
-
 }
 
 #gamesSection ul:hover {
