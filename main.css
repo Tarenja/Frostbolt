@@ -3,7 +3,6 @@ Colors:
 
 Lightblue: rgb(58,254,251)
 Darkgreenblue: rgb(10,66,73)
-Brokenwhite:
 */
 
 body {
@@ -109,11 +108,6 @@ nav li a {
     font-size: 35pt;
     padding-left: 50px;
 }
-
-/*@media (min-width: 900px) {
-  #game-section-1, #game-section-2, #gamesSection img {
-    display: inline;
-  }*/
 
 #gamesSection img {
     padding: 40px;
@@ -341,7 +335,7 @@ nav li a {
 #ourteam {
 	width: 900px;
 	margin: 0 auto;
-	padding: 40px;
+	padding: 50px 50px 0px 50px;
 }
 
 #ourteam span {
@@ -353,39 +347,85 @@ nav li a {
 }
 
 #CEO {
-	height: 200px;
+	height: 150px;
+	margin: 50px 0px 0px 60px;
 }
 
 #CEO img {
-	float: right;
+	float: left;
 }
 
 #artdirector {
-	height: 200px;
-	display: inline-block;
+	height: 150px;
+	margin: 50px 0px 0px 60px;
 }
 
 #artdirector img {
 	float: left;
-	display: inline-block;
 }
 
 .functie {
 	color: rgb(58,254,251);
-	padding: 0;
 	display: inline-block;
-	clear: both;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	font-size: 22px;
+	-webkit-margin-before: 25px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 .quote {
 	text-align: justify;
-	display: inline;
+	display: inline-block;
 	float: left;
-	width: 100%;
+	width: 70%;
+	padding-left: 25px;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#line2 {
+	height: 3px;
+	background-color: white;
+	width: 1100px;
+	margin: 0 auto;
+	margin: 50px 0px 50px 0px;
 }
 
 #careers {
 	height: 300px;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#careers span {
+	color: rgb(58,254,251);
+}
+
+.seealljobs {
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	display: inline-block;
+	color: black;
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
+	margin-top: 50px;
+}
+
+.seealljobs:hover {
+	background-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	color: rgb(58,254,251);
+	padding: 10px 20px 10px 20px;	
+	text-decoration: none;
+	font-size: 15pt;
 }
 
 /*---------------------footer---------------------*/
