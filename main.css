@@ -5,6 +5,8 @@ body {
 	padding-top: 80px;
 }
 
+/*everything below here belongs to the header*/
+
 nav {
 	display: inline-block;
 	height: 100px;
@@ -57,11 +59,17 @@ nav li a {
 	color: black;
 }
 
+#storeButton:hover {
+	background-color: rgb(10,66,73);
+}
+
+/*everything below here belongs to the splash banner*/
+
 #splashBanner {
 	background-image: url("images/SliderImage.png");
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 1000px;
+    height: 800px;
     width: 100%;
     margin: 0;
     background-position: center;
@@ -85,43 +93,174 @@ nav li a {
 }
 #outNow a {
 	text-decoration: none;
+	color: black;
 }
 
-#Dishonored{
-	display: block;
+#outNow:hover {
+	background-color: rgb(10,66,73);
+	color: black;
 }
-#DragonAge{
-	display: block;
+
+/*everything below here belongs to the game images section on the homepage*/
+
+#gamesSection img {
+	margin-top: 50px;
+	transition: width 1s ease;
+}
+
+#gamesSection img:hover {
+	width: 350px;
+}
+
+#images1, #images2 {
+	text-align: center;
 }
 
 #gamesSection p{
+	font-size: 45pt;
+	margin-left: 100px;
+}
+
+#gamesSection {
+	margin-bottom: 50px;
+}
+
+#gamesSection div {
+	display: inline;
+} 
+
+#gamesSection ul {
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 10px;
+	transition: background-color 0.5s ease;
+}
+
+#gamesSection ul:hover {
+	background-color: rgb(10,66,73);
+}
+
+#gamesSection li { 
+	font-size: 30px;
+	list-style: none;
+}
+
+#see p {
+	font-size: 30pt;
+	display: block;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	width: 10%;
+	text-align: center;
+	margin: auto;
+}
+
+#see a {
+	text-decoration: none;
+}
+
+/*everything below here belongs to the game page*/
+
+#gameBanner {
+	background-image: url("images/gamepagepics/headerimage.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+}
+
+#gameSlogan {
+	font-size: 70pt;
+	padding-top: 300px;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+#buyNow {
+	display: inline;
+	font-size: 20pt;
+	margin-left: 300px;
+	margin-top: -100px;
+	padding: 10px;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	width: 100px;
+}
+
+#buyNow:hover {
+	background-color: rgb(10,66,73);
+}
+
+#buyNow a {
+	text-decoration: none;
+	color: black;
+}
+
+#trailer {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(10,66,73);
+	padding-bottom: 50px;
+
+}
+
+#aboutGame {
+	font-size: 15pt;
+	border-bottom: 1px solid white;
+	width: 90%;
+	margin-left: 100px;
+}
+
+.sectionHeader {
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#gameQuote {
+	text-align: center;
+	width: 100%;
 	font-size: 35pt;
-	padding-left: 50px;
-	height: 100px;
 }
 
-#gamesSection img {
-	padding: 40px;
-}
-
-
-#game-section-1{
-	width: 45%;
+#synopsis {
+	width: 60%;
 	display: inline-block;
 	float: left;
-	margin-left: 200px;
-	margin-right: -150px;
-	margin-top: -100px;
+	margin-left: 100px;
 }
 
-#game-section-2{
-	width: 45%;
+#gamePic {
+	width: 30%;
 	display: inline-block;
+	margin: 30px;
 }
+
+#screenshots {
+	text-align: center;
+}
+
+#left, #right {
+	display: inline;
+	font-size: 50pt;
+}
+
+#dots {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/*Everything below here belongs in the footer*/
 
 #footer {
 	background-color: rgb(10,66,73);
 	padding-bottom: 20px;
+	width: 100%;
 }
 
 #footer ul {
@@ -138,12 +277,12 @@ nav li a {
 }
 
 #legal {
-	border-left: 1px solid rgb(58,255,255);
+	border-left: 1px solid rgb(58,240,240);
 }
 
 #contact {
 	display: inline-block;
-	border-left: 1px solid rgb(58,255,255);
+	border-left: 1px solid rgb(58,240,240);
 	margin-top: 10px;
 }
 
@@ -156,7 +295,7 @@ nav li a {
 }
 
 #socialBanner ul {
-	display: block;	
+	display: inline-block;	
 }
 
 #socialBanner {
@@ -169,6 +308,26 @@ nav li a {
 	color: white;
 } 
 
+#explore {
+	width: 20%;
+	float: left;
+	line-height: 25px;
+}
+
+#legal {
+	width: 20%;
+	float: left;
+	line-height: 25px;
+}
+
+#google {
+	display: inline-block;
+	padding-left: 200px;
+}
+
+
 #rights {
 	font-size: 15pt;
 }
+
+
