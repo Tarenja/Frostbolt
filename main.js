@@ -34,7 +34,7 @@ $(document).ready(function() {
  	
   		$('#img4').mouseleave(function () {
   			$('#MassEffect').stop().animate({opacity: '0.2'});
-  		});
+  		}); 
  	  	
  		$('#img5').hover(function() {
  			$('#Skyrim').animate({opacity: '1'});
