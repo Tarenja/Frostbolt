@@ -71,7 +71,12 @@ nav li a {
 }
 
 #storeButton:hover {
-	background-color: rgb(10,66,73);
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#storeButton a:hover {
+	color: rgb(58,254,251);
 }
 
 /*everything below here belongs to the splash banner*/
@@ -108,17 +113,38 @@ nav li a {
 }
 
 #outNow:hover {
-	background-color: rgb(10,66,73);
-	color: black;
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#outNow a:hover {
+	color: rgb(58,254,251);
 }
 
 /*everything below here belongs to the game images section on the homepage*/
 
-#gamesSection img {
-	margin-top: 50px;
-	transition: width 1s ease;
-	padding: 40px;
-    margin: 0 auto;
+#gamesSection {
+	margin-bottom: 50px;
+}
+
+#gamesSection div {
+	display: inline;
+} 
+
+#gamesSection ul {
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 10px;
+	transition: background-color 0.5s ease;
+}
+
+#gamesSection ul:hover {
+	background-color: rgb(10,66,73);
+}
+
+#gamesSection li { 
+	font-size: 30px;
+	list-style: none;
 }
 
 #gamesSection img:hover {
@@ -134,17 +160,88 @@ nav li a {
     padding-left: 50px;
 }
 
-#game-section-1{
-    width: 45%;
-    display: inline-block;
-    float: left;
+#gamesSection img {
+	margin-top: 50px;
+	transition: width 1s ease;
+	padding: 40px;
     margin: 0 auto;
 }
 
-#game-section-2{
-    width: 45%;
-    display: inline-block;
+/*gamesSectiona formatting*/
+#gamesSectiona {
+	margin-bottom: 50px;
+}
+
+#gamesSectiona div {
+	display: inline;
+} 
+
+#gamesSectiona ul {
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 10px;
+	transition: background-color 0.5s ease;
+}
+
+#gamesSectiona ul:hover {
+	background-color: rgb(10,66,73);
+}
+
+#gamesSectiona li { 
+	font-size: 30px;
+	list-style: none;
+}
+
+#gamesSectiona img:hover {
+	width: 350px;
+}
+
+#images1a, #images2a {
+	text-align: center;
+}
+
+#gamesSectiona p{
+    font-size: 35pt;
+    padding-left: 50px;
+}
+
+#gamesSectiona img {
+	margin-top: 50px;
+	transition: width 1s ease;
+	padding: 40px;
     margin: 0 auto;
+}
+
+/*see all button*/
+
+#see {
+	margin: 100px 0px 100px 0px;
+}
+
+#see p {
+	font-size: 30pt;
+	display: block;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	width: 200px;
+	padding: 0px;
+}
+
+#see a {
+	text-decoration: none;
+	color: black;
+}
+
+#see p:hover {
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#see a:hover {
+	color: rgb(58,254,251);
 }
 
 /*---------------------store---------------------*/
@@ -153,9 +250,9 @@ nav li a {
 }
 
 #top {
-	width: 100%;
+	width: 1200px;
 	display: inline;
-	padding: 0px 0px 0px 25px;
+	padding: 0px 0px 0px 165px;
 }
 
 #line {
@@ -221,184 +318,6 @@ nav li a {
 	height: 20px;
 }
 
-/*///////*/
-
-#allthegames {
-	text-align: center;
-	background-color: black;
-}
-
-#row1 {
-	margin: 0 auto;
-	clear: both;
-}
-
-#row2 {
-	margin: 0 auto;
-	clear: both;
-}
-
-.gameBlock {
-	display: inline-block;
-	width: 257px;
-	float: left;
-	padding: 20px; 
-	text-align: left;
-}
-
-.boxart {
-	height: 300px;
-	opacity: 0.5;
-}
-
-.boxart:hover {
-	opacity: 1;
-}
-
-.gameinfo {
-	background-color: rgb(10,66,73);
-	padding: 4px 4px 20px 4px;
-	margin-top: -4px;
-}
-
-#gamesSection {
-	margin-bottom: 50px;
-}
-
-#gamesSection div {
-	display: inline;
-} 
-
-#gamesSection ul {
-	display: inline-block;
-	width: 30%;
-	padding-bottom: 10px;
-	transition: background-color 0.5s ease;
-}
-
-#gamesSection ul:hover {
-	background-color: rgb(10,66,73);
-}
-
-#gamesSection li { 
-	font-size: 30px;
-	list-style: none;
-}
-
-#see p {
-	font-size: 30pt;
-	display: block;
-	background-color: rgb(58,254,251);
-	border-radius: 5px;
-	color: black;
-	width: 10%;
-	text-align: center;
-	margin: auto;
-}
-
-#see a {
-	text-decoration: none;
-}
-
-/*everything below here belongs to the game page*/
-
-#gameBanner {
-	background-image: url("images/gamepagepics/headerimage.png");
-    background-repeat: no-repeat; 
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    margin: 0;
-    background-position: center;
-}
-
-#gameSlogan {
-	font-size: 70pt;
-	padding-top: 300px;
-	padding-left: 100px;
-	display: inline-block;
-}
-
-#buyNow {
-	display: inline;
-	font-size: 20pt;
-	margin-left: 300px;
-	margin-top: -100px;
-	padding: 10px;
-	background-color: rgb(58,254,251);
-	border-radius: 5px;
-	color: black;
-	width: 100px;
-}
-
-#buyNow:hover {
-	background-color: rgb(10,66,73);
-}
-
-#buyNow a {
-	text-decoration: none;
-	color: black;
-}
-
-#trailer {
-	width: 100%;
-	text-align: center;
-	background-color: rgb(10,66,73);
-	padding-bottom: 50px;
-
-}
-
-#aboutGame {
-	font-size: 15pt;
-	border-bottom: 1px solid white;
-	width: 90%;
-	margin-left: 100px;
-}
-
-.sectionHeader {
-	font-size: 25pt;
-	text-align: center;
-	padding-top: 20px;
-}
-
-#gameQuote {
-	text-align: center;
-	width: 100%;
-	font-size: 35pt;
-}
-
-#synopsis {
-	width: 60%;
-	display: inline-block;
-	float: left;
-	margin-left: 100px;
-}
-
-#gamePic {
-	width: 30%;
-	display: inline-block;
-	margin: 30px;
-}
-
-#screenshots {
-	text-align: center;
-}
-
-#left, #right {
-	display: inline;
-	font-size: 50pt;
-}
-
-#dots {
-	display: inline-block;
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-/*Everything below here belongs in the footer*/
-
-
-
 .gametitle {
 	font-size: 20pt;
 	-webkit-margin-before: 10px;
@@ -426,7 +345,7 @@ nav li a {
     -webkit-margin-end: 10px;
 }
 
-.buynow {
+.buy {
 	background-color: rgb(58,254,251);
 	border-radius: 5px;
 	display: inline-block;
@@ -441,7 +360,7 @@ nav li a {
     -webkit-margin-end: 10px;
 }
 
-.buynow:hover {
+.buy:hover {
 	background-color: black;
 	border-radius: 5px;
 	display: inline-block;
@@ -455,6 +374,150 @@ nav li a {
     -webkit-margin-start: 10px;
     -webkit-margin-end: 10px;
 }
+
+/*///////*/
+
+#allthegames {
+	text-align: center;
+	background-color: black;
+}
+
+#row1 {
+	margin: 0 auto;
+	clear: both;
+	width: 1200px;
+}
+
+#row2 {
+	margin: 0 auto;
+	clear: both;
+	width: 1200px;
+}
+
+.gameBlock {
+	display: inline-block;
+	width: 257px;
+	float: left;
+	padding: 20px; 
+	text-align: left;
+}
+
+.boxart {
+	height: 300px;
+	opacity: 0.5;
+}
+
+.boxart:hover {
+	opacity: 1;
+}
+
+.gameinfo {
+	background-color: rgb(10,66,73);
+	padding: 4px 4px 20px 4px;
+	margin-top: -4px;
+}
+
+/*everything below here belongs to the game page*/
+
+#gameBanner {
+	background-image: url("images/gamepagepics/headerimage.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+}
+
+#gameSlogan {
+	font-size: 70pt;
+	padding-top: 300px;
+	padding-left: 50px;
+	display: inline-block;
+}
+
+#buyNow {
+	display: inline;
+	font-size: 20pt;
+	margin-left: 100px;
+	margin-top: -100px;
+	padding: 10px;
+	background-color: rgb(58,254,251);
+	border-radius: 5px;
+	color: black;
+	width: 100px;
+}
+
+#buyNow:hover {
+	background-color: black;
+	border: 1px solid rgb(58,254,251);
+}
+
+#buyNow a {
+	text-decoration: none;
+	color: black;
+}
+
+#buyNow a:hover {
+	color: rgb(58,254,251);
+}
+
+#trailer {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(10,66,73);
+	padding-bottom: 50px;
+
+}
+
+#aboutGame {
+	font-size: 15pt;
+	border-bottom: 1px solid white;
+	width: 90%;
+	margin-left: 100px;
+	padding-bottom: 50px;
+}
+
+.sectionHeader {
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#gameQuote {
+	text-align: center;
+	width: 100%;
+	font-size: 35pt;
+}
+
+#synopsis {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+}
+
+#gamePic {
+	width: 30%;
+	display: inline-block;
+	margin: 30px;
+}
+
+#screenshots {
+	text-align: center;
+}
+
+#left, #right {
+	display: inline;
+	font-size: 50pt;
+}
+
+#dots {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
 /*---------------------about---------------------*/
 #header {
 	margin: -7px;
@@ -577,6 +640,7 @@ nav li a {
 
 .seealljobs:hover {
 	background-color: black;
+	border: 1px solid rgb(58,254,251);
 	border-radius: 5px;
 	display: inline-block;
 	color: rgb(58,254,251);
@@ -671,4 +735,5 @@ nav li a {
 
 #rights {
     font-size: 15pt;
+    padding-left: 40px;
 }
